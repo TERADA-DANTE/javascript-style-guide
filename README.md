@@ -344,7 +344,7 @@
     ```
 
   - [5.3](#5.3) <a name='5.3'></a> Use object destructuring for multiple return values, not array destructuring.
-  - [5.3](#5.3) <a name='5.3'></a> 複数の値をreturnする時は 配列의 構造化代入ではなく オブジェクトの 構造化代入を使ってください。
+  - [5.3](#5.3) <a name='5.3'></a> 複数の値をreturnする時は 配列の 構造化代入ではなく オブジェクトの 構造化代入を使ってください。
     ```javascript
     // bad
     function processInput(input) {
@@ -1358,7 +1358,7 @@
     ```
 
 
-## 형변환과 강제(Type Casting & Coercion)
+## 形変換と強制(Type Casting & Coercion)
 
   - [21.1](#21.1) <a name='21.1'></a> Perform type coercion at the beginning of the statement.
   - [21.1](#21.1) <a name='21.1'></a> 文の頭で形変換を行います。
